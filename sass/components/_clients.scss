@@ -1,0 +1,25 @@
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.clients__svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 170px;
+  height: 92px;
+
+  fill: $clients-color;
+  border: 1px solid $clients-color;
+  border-radius: 4px;
+  transition: fill 250ms $cubic, border-color 250ms $cubic;
+
+  &:hover,
+  &:focus {
+    border-color: $active-color;
+    fill: $active-color;
+  }
+}
