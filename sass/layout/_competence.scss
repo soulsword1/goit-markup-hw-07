@@ -10,6 +10,9 @@
 
 .competence__content {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   width: 370px;
   height: 70px;
@@ -20,9 +23,6 @@
 }
 
 .competence__text {
-  padding: 27px 0;
-  text-align: center;
-
   color: $white-color;
   font-size: 14px;
   font-weight: 700;
